@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{23bb3025-c34c-4ebc-a81f-9485319616c5}</ProjectGuid>
+    <ProjectGuid>{8048ce4c-8f28-4213-90b6-37e1882b7551}</ProjectGuid>
     <RootNamespace>cppdemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="swap.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="01_HelloWorld.cpp" />
     <ClCompile Include="02_Variable.cpp" />
     <ClCompile Include="03_BasicDataType.cpp" />
@@ -151,9 +154,6 @@
     <ClCompile Include="10_PointerAndStruct.cpp" />
     <ClCompile Include="20_Memory.cpp" />
     <ClCompile Include="21_NewAndDelete.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="swap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
