@@ -10,7 +10,7 @@ using namespace std;
 		
 */
 
-int main00() {
+int main22() {
 
 	return 0;
 }

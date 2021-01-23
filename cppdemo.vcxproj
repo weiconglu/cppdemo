@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8fbaf5e1-aee7-4c74-bacb-3ad559811db7}</ProjectGuid>
-    <RootNamespace>day02</RootNamespace>
+    <ProjectGuid>{23bb3025-c34c-4ebc-a81f-9485319616c5}</ProjectGuid>
+    <RootNamespace>cppdemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,8 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="00_Memory.cpp" />
-    <ClCompile Include="01_NewAndDelete.cpp" />
+    <ClCompile Include="01_HelloWorld.cpp" />
+    <ClCompile Include="02_Variable.cpp" />
+    <ClCompile Include="03_BasicDataType.cpp" />
+    <ClCompile Include="04_Array.cpp" />
+    <ClCompile Include="05_Pointer.cpp" />
+    <ClCompile Include="06_PointerAndArray.cpp" />
+    <ClCompile Include="07_ValueTransferAndAddressTransfer.cpp" />
+    <ClCompile Include="08_PointerAndConst.cpp" />
+    <ClCompile Include="09_PointerAndMethod.cpp" />
+    <ClCompile Include="10_PointerAndStruct.cpp" />
+    <ClCompile Include="20_Memory.cpp" />
+    <ClCompile Include="21_NewAndDelete.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="swap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

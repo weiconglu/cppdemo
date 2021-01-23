@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="01_HelloWorld.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="02_Variable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -36,13 +39,16 @@
     <ClCompile Include="08_PointerAndConst.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="01_HelloWorld.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="09_PointerAndMethod.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="10_PointerAndStruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20_Memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21_NewAndDelete.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

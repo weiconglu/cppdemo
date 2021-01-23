@@ -6,6 +6,9 @@ using namespace std;
 int main()
 {
 
-	system("pause");
+	int* p = new int(20);
+
+	cout << "p = " << *p << endl;
+
 	return 0;
 }
