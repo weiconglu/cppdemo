@@ -2,8 +2,7 @@
 #include<string>
 using namespace std;
 
-struct Student
-{
+struct Student {
 	string name;
 	char gender;
 	int age;
