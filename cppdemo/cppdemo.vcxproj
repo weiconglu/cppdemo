@@ -160,6 +160,8 @@
     <ClCompile Include="25_ClassMemberVariable.cpp" />
     <ClCompile Include="26_Friend.cpp" />
     <ClCompile Include="27_IODemo1.cpp" />
+    <ClCompile Include="28_VectorDemo.cpp" />
+    <ClCompile Include="29_StringDemo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

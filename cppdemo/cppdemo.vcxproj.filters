@@ -74,5 +74,11 @@
     <ClCompile Include="27_IODemo1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="28_VectorDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29_StringDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
